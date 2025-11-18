@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | JG Tech Solutions</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <div class="logo">JG <span>TECH</span> SOLUTIONS</div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="section-title">Get in touch</h1>
+      <p class="section-subtitle">
+        Tell us a little about your business and what you need help with. We’ll follow up with next steps.
+      </p>
+
+      <!-- Simple contact form - you'll need a service like Formspree, Netlify Forms, etc. to handle submissions -->
+      <form class="contact-form" action="#" method="post">
+        <div>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+
+        <div>
+          <label for="business">Business name (optional)</label>
+          <input id="business" name="business" type="text" />
+        </div>
+
+        <div>
+          <label for="message">What do you need help with?</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send message</button>
+      </form>
+
+      <br /><br />
+      <p class="section-subtitle">
+        Prefer to reach out directly?
+      </p>
+      <p style="font-size:0.95rem;">
+        Email: <strong>support@jgtechsolutions.com</strong><br />
+        Location: New Hampshire • Remote &amp; local support available
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>© 2025 JG Tech Solutions</div>
+      <div>Small Business Tech • Cloud Support • CRM Setup • New Hampshire</div>
+    </div>
+  </footer>
+</body>
+</html>
