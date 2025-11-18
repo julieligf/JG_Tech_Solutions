@@ -5,43 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>JG Tech Solutions | Small Business Tech & Cloud Support</title>
   <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-  <!-- Header / Nav -->
-  <header>
-    <div class="container navbar">
-      <div class="logo">JG <span>TECH</span> SOLUTIONS</div>
-      <nav class="nav-links">
-        <a href="index.html" class="active">Home</a>
-        <a href="services.html">Services</a>
-        <a href="pricing.html">Pricing</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
+ <header>
+  <div class="container navbar">
+
+    <!-- Logo + Text -->
+    <a href="index.html" class="logo-link" style="display:flex; align-items:center; gap:0.5rem;">
+      <img src="Logo.png" alt="JG Tech Solutions Logo" class="logo-small">
+      <span class="logo-text">JG Tech Solutions</span>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+  </div>
+</header>
+
 
   <!-- Hero -->
   <section class="hero">
-    <div class="container hero-inner">
-      <div>
-        <h1 class="hero-title">Fast, friendly tech &amp; cloud support for small businesses.</h1>
-        <p class="hero-subtitle">
-          JG Tech Solutions helps New Hampshire businesses set up clean, reliable, easy-to-use systems — so your tech
-          finally works <strong>for</strong> you.
-        </p>
-        <div class="hero-badges">
-          <span class="badge">Tech setup</span>
-          <span class="badge">Cloud solutions</span>
-          <span class="badge">CRM &amp; workflows</span>
-        </div>
-        <div class="hero-actions">
-          <a href="contact.html" class="btn btn-primary">Book a Free Consultation</a>
-          <a href="services.html" class="btn btn-outline">View Services</a>
-        </div>
+  <div class="container hero-grid">
+
+    <!-- LEFT SIDE (Text) -->
+    <div class="hero-left">
+      <h1 class="hero-title">Fast, friendly tech & cloud support for small businesses.</h1>
+      <p class="hero-subtitle">
+        JG Tech Solutions helps New Hampshire businesses set up clean, reliable, easy-to-use
+        systems — so your tech finally works for you.
+      </p>
+
+      <div class="hero-badges">
+        <span class="badge">Tech setup</span>
+        <span class="badge">Cloud solutions</span>
+        <span class="badge">CRM & workflows</span>
+      </div>
+
+      <div class="hero-actions">
+        <a href="contact.html" class="btn btn-primary">Book a Free Consultation</a>
+        <a href="services.html" class="btn btn-outline">View Services</a>
       </div>
     </div>
-  </section>
+
+    <!-- RIGHT SIDE (BIG LOGO) -->
+    <div class="hero-right">
+      <img src="Logo.png" alt="JG Tech Solutions Logo" class="hero-logo-big">
+    </div>
+
+  </div>
+</section>
+
 
   <!-- Why Choose Us -->
   <section class="section">

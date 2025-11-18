@@ -55,6 +55,34 @@
   .logo span {
     color: #38bdf8; /* accent */
   }
+
+  .logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 70px;     /* try 60–80px and see what you like */
+  width: auto;
+  object-fit: contain;
+}
+
+.logo-small {
+  height: 42px;
+  width: auto;
+  object-fit: contain;
+}
+
+.logo-text {
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;     /* matches the logo's thick JG TECH */
+  font-size: 1.1rem;
+  color: #38bdf8;
+  letter-spacing: 0.04em;
+
+}
+
   
   .nav-links {
     display: flex;
@@ -90,12 +118,32 @@
     background: radial-gradient(circle at top left, #38bdf8 0, #0f172a 40%, #020617 100%);
     color: #f9fafb;
   }
-  
-  .hero-inner {
-    display: grid;
-    grid-template-columns: minmax(0, 3fr);
-    gap: 2rem;
-  }
+
+  .hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Make text area cleaner */
+.hero-left {
+  max-width: 550px;
+}
+
+/* Big logo on the right */
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-logo-big {
+  height: 340px;   /* adjust size here */
+  width: auto;
+  opacity: 0.9;
+}
+
   
   .hero-title {
     font-size: clamp(2rem, 3vw + 1rem, 2.7rem);
